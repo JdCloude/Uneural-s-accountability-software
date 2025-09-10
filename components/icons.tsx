@@ -1,0 +1,20 @@
+import React from 'react';
+
+const IconBase: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`w-6 h-6 ${className}`}>
+    {children}
+  </svg>
+);
+
+export const HomeIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955a1.5 1.5 0 012.122 0l8.954 8.955M3 10.5v9a1.5 1.5 0 001.5 1.5h15a1.5 1.5 0 001.5-1.5v-9M10.5 21V15a1.5 1.5 0 011.5-1.5h0a1.5 1.5 0 011.5 1.5v6" /></IconBase>;
+export const TransactionsIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" /></IconBase>;
+export const ProjectsIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h6M9 11.25h6M9 15.75h6" /></IconBase>;
+export const BudgetsIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M21 12a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 12m18 0v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6m18 0V6A2.25 2.25 0 0018.75 3.75H5.25A2.25 2.25 0 003 6v6" /></IconBase>;
+export const ReportsIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6a7.5 7.5 0 100 15 7.5 7.5 0 000-15z" /><path strokeLinecap="round" strokeLinejoin="round" d="M12.75 5.105A7.477 7.477 0 0012 5.062a7.477 7.477 0 00-1.218 5.884M16.5 11.25a7.5 7.5 0 00-1.895-5.145M12 19.5c.394 0 .784-.028 1.17-.083M12 19.5a7.477 7.477 0 01-5.884-1.218" /></IconBase>;
+export const UsersIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-4.663c.278.473.504.98.692 1.511z" /><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></IconBase>;
+export const ApprovalsIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></IconBase>;
+export const UploadIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5" /></IconBase>;
+export const PaperclipIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M18.375 12.739l-7.693 7.693a4.5 4.5 0 01-6.364-6.364l10.94-10.94A3 3 0 1119.5 7.372L8.552 18.32m.009-.01l-.01.01m5.699-9.941l-7.81 7.81a1.5 1.5 0 002.122 2.122l7.81-7.81" /></IconBase>;
+export const CheckIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" /></IconBase>;
+export const XMarkIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></IconBase>;
+export const MicrophoneIcon = ({ className = '' }) => <IconBase className={className}><path strokeLinecap="round" strokeLinejoin="round" d="M12 18.75a6 6 0 006-6v-1.5a6 6 0 00-12 0v1.5a6 6 0 006 6z" /><path strokeLinecap="round" strokeLinejoin="round" d="M12 12.75V3.75m0 9v6.75m0-6.75H6.75m5.25 0h5.25" /></IconBase>;

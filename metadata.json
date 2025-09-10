@@ -1,0 +1,8 @@
+{
+  "name": "UNeural AI Accounting Agent",
+  "description": "An AI-powered accounting agent for UNeural that processes multimodal inputs (audio, images, PDFs, videos) to extract, validate, and update financial data in a real-time dashboard.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
